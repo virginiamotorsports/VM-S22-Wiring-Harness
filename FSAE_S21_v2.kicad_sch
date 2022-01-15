@@ -2,16 +2,14 @@
 
   (uuid 15fe8f3d-6077-4e0e-81d0-8ec3f4538981)
 
-  (paper "User" 599.999 399.999)
+  (paper "User" 599.999 299.999)
 
   (title_block
-    (title "FSAE S21 Wiring Diagram v1.5")
-    (date "2021-04-25")
-    (rev "1.5")
+    (title "FSAE S21 Wiring Diagram v2.1")
+    (date "2022-01-14")
+    (rev "2.1")
     (company "Virginia Motorsports")
-    (comment 1 "Updated: Changed various fuse sizes")
-    (comment 2 "Updated: Swapped Relays Power/Ground")
-    (comment 3 "Updated: Removed Cooling Switch")
+    (comment 1 "Updated: Added Wire Colors")
   )
 
   (lib_symbols
@@ -6556,13 +6554,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 065b4e0d-6eb3-4e86-a8af-aaf7d0ff32db)
   )
+  (label "GND_Sensor" (at 350.52 228.6 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 06a60fb6-e686-4b76-8ac9-82d5b9c6903d)
+  )
   (label "RL_Hall_Effect" (at 495.3 153.67 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 08fa04e3-2715-4423-9781-d07776c93fe8)
-  )
-  (label "GND_Sensor" (at 350.52 224.79 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0e352cc8-2872-4a0f-b2e9-268f2c1b080c)
   )
   (label "Inj2" (at 226.06 105.41 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
